@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do list</title>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles/stylesheet.css">
+</head>
+<body>
+    <main>
+        <div class="shoppingList">
+            <img src="assets/262611.svg" alt="shopping cart">
+            <h1>Grocery List: Must get Items</h1>
+            <div class="listContainer">
+                <p id="text"></p>
+                <ul></ul>
+            </div>
+        </div>
+
+        <div class="formContainer">
+            <form class='addItemsForm'>
+                <input id="itemInput" type="text" name="add" placeholder="What do you need to get? ...">
+                <input id="addtolistBtn" type="submit" value="Add Me">
+                <input id="clearItems" type="submit" value="Clear the List">
+            </form>
+        </div>
+    </main>
+
+    <script src='https://code.jquery.com/jquery-3.4.0.min.js' integrity='sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg=' crossorigin='anonymous'></script>
+    <script src="jquery/app.js"></script>
+</body>
+</html>
